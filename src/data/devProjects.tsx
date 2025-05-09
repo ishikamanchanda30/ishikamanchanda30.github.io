@@ -8,6 +8,7 @@ interface DevProjects {
     imgURL : string,
     desc : string,
     link : string,
+    techStack:string[],
 }
 
 const devProject:DevProjects[] = [
@@ -16,16 +17,18 @@ const devProject:DevProjects[] = [
         subtitle : "Web Development",
         year : "2025", 
         imgURL :  da, 
-        desc : "A responsive website", 
+        desc : "This is an exciting college society website, DASBVP which showcases society vision, team information, and various events.", 
         link : "https://dasbvp.onrender.com/",
+        techStack: ['React','TypeScript','TailwindCSS'],
     },
     {
         title: "Sponsorship Bridge",
         subtitle : "Web Development",
         year : "2025",
         imgURL : sponsorshipBridge,
-        desc : "Developed a responsive and visually accurate clone of the Amazon e-commerce platform, replicating core features such as product listings, shopping cart and checkout.", 
+        desc : "Developed this platform", 
         link : "https://github.com/ishikamanchanda30/Amazon-Javascript-Project",
+        techStack: ['React','TypeScript','TailwindCSS','NodeJS', 'ExpressJS', 'MongoDB', 'Redux'],
     },
     {
         title: "Quick Fleet Website",
@@ -34,6 +37,7 @@ const devProject:DevProjects[] = [
         imgURL : quickfleet,
         desc : "Designed and developed a responsive and user-friendly front-end prototype website for a telematics platform focused on long-haul trucking efficiency.", 
         link : "https://github.com/ishikamanchanda30/SIH-Website-A",
+        techStack: ['HTML','CSS','Javascript'],
     },
 
 ]

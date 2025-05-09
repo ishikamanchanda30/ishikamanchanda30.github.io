@@ -1,4 +1,6 @@
-import { Link, useLocation } from "react-router-dom"
+import {useLocation } from "react-router-dom"
+import {Link} from 'react-scroll'
+
 const NavBar: React.FC = () => {
   const location = useLocation();
   const isActive = (path: string) => {
@@ -17,21 +19,21 @@ const NavBar: React.FC = () => {
           <div>ishikamanchanda0130@gmail.com</div>
         </div>
         <div className=''>
-          <div>Switch to</div>
-          <div>Dark Mode</div>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <div className="flex w-[30%] justify-between">
-        <Link to="/about" className={`${isActive('/about')}`}>
+        <Link to="about" smooth={true} duration={300} className='cursor-pointer'>
           ABOUT
         </Link>
-        <Link to="/experience" className={`${isActive('/experience')}`}>
-          EXPERIENCE
-        </Link>
-        <Link to="/projects" className={`${isActive('/project')}`}>
+        <Link to="projects" smooth={true} duration={300} className='cursor-pointer'>
           PROJECTS
         </Link>
-        <Link to="/contact" className={`${isActive('/contact')}`}>
+        <Link to="experience" smooth={true} duration={300} className='cursor-pointer'>
+          EXPERIENCE
+        </Link>
+        <Link to="contact" smooth={true} duration={300} className='cursor-pointer'>
           CONTACT
         </Link>
       </div>

@@ -1,13 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom'
-import About from "./Components/About"
+
 import NavBar from "./Components/NavBar"
 import NavMobile from "./Components/NavMobile"
-import Projects from "./Components/Projects"
-import Experience from "./Components/Experience"
-import Contact from "./Components/Contact"
-import Landing from "./Components/Landing"
-import { useState, useEffect } from 'react'
 import Home from './Pages/Home'
+import { useState, useEffect } from 'react'
 
 
 const MainLayout: React.FC = () => {

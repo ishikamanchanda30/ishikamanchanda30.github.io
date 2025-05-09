@@ -2,7 +2,7 @@
 
 const About: React.FC = () => {
     return (
-        <div className='p-3 m-auto md:min-h-screen '>
+        <div className='p-3 m-auto md:min-h-screen' id='about'>
             <div className='text-4xl md:text-6xl mb-4'>ABOUT</div>
             <div className='border-1 border-[#686868] opacity-20 mb-10'></div>
             <div className='flex flex-col gap-12'>

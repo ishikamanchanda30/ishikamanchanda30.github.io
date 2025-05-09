@@ -7,14 +7,14 @@ const Development = () => {
             <div className="overflow-y-auto">
                 <div>
                     <div className='text-4xl md:text-5xl mb-4'>DEVELOPMENT</div>
-                    <div className='border-1 border-[#686868] opacity-20 w-[30%]'></div>
+                    <div className='border-1 border-[#686868] opacity-20'></div>
                 </div>
-                {devProject.map((project) => (
-                    <div className='grid grid-cols-1 md:grid-cols-2 py-5 gap-0'>
+                {devProject.map((project, index) => (
+                    <div key={index} className='grid grid-cols-1 md:grid-cols-2 py-5 gap-0 mb-10'>
                         <div className=" ">
-                            <div className="text-2xl">{project.title}</div>
-                            <div className="">{project.subtitle}</div>
-                            <div className="">{project.year}</div>
+                            <div className="text-3xl font-bold">{project.title}</div>
+                            <div className="opacity-70">{project.subtitle}</div>
+                            <div className="opacity-70">{project.year}</div>
                         </div>
                         <div className="col-span-1 md:row-span-2">
                             <img
@@ -23,9 +23,14 @@ const Development = () => {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="col-span-1  flex flex-col">
-                            <div className="text-md">
+                        <div className="col-span-1 flex flex-col justify-end gap-3">
+                            <div className="text-md mt-5 md:mt-0 md:w-1/2">
                                 {project.desc}
+                            </div>
+                            <div className="flex flex-wrap gap-2 text-xs text-white items-end">
+                            {project.techStack.map((tech,index)=>(
+                                <div key={index} className="border-2 rounded-md px-3 py-1 opacity-40">{tech}</div>
+                            ))}
                             </div>
                             <div className="mt-4 flex items-center ">
                                 <Link to={project.link} className=" flex justify-center items-center"><img src={github} className="mr-2 h-5 rounded-full flex justify-center items-center" alt="" />Link</Link>

@@ -37,7 +37,7 @@ const Contacts: React.FC = () => {
 
   return (
 
-    <div className=" w-[100%] text-white flex flex-col mb-10 ">
+    <div className=" w-[100%] text-white flex flex-col mb-10" id='contact'>
       <div className='text-4xl md:text-6xl mb-4'>CONTACT</div>
       <div className='border-1 border-[#686868] opacity-20 mb-10'></div>
       <div className="w-full flex flex-row md:justify-between">
