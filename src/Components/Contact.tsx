@@ -27,23 +27,23 @@ const Contacts: React.FC = () => {
       import.meta.env.VITE_EMAIL_USER_ID
     )
       .then(() => {
-        console.log("Email Sent Successfully");
+        alert("Email Sent Successfully");
       })
-      .catch(error => {
-        console.log("Error in sending Mail", error);
+      .catch(() => {
+        alert("Error in sending Mail");
       });
   };
 
 
   return (
 
-    <div className=" w-[100%] text-white flex flex-col mb-10" id='contact'>
-      <div className='text-4xl md:text-6xl mb-4'>CONTACT</div>
+    <div className=" w-[100%]  flex flex-col mb-10" id='contact'>
+      <div className='text-4xl md:text-6xl mb-4'> CONTACT</div>
       <div className='border-1 border-[#686868] opacity-20 mb-10'></div>
       <div className="w-full flex flex-row md:justify-between">
         <div className="w-1/2 flex flex-col md:flex-row gap-4 md:gap-40">
           <div>
-            <h2 className="text-sm md:text-2xl font-[300]  ">CONTACT</h2>
+            <h2 className="text-sm md:text-2xl font-[300] ">CONTACT</h2>
             <p className="text-sm md:text-lg text-[#686868] hover:text-gray-300 transition-colors">ishikamanchanda0130@gmail.com</p>
            
           </div>
@@ -60,10 +60,10 @@ const Contacts: React.FC = () => {
       </div>
       <div className="w-full flex flex-col md:flex-row justify-between mt-10">
         <div className="w-full md:w-2/3 mt-4 mr-10">
-          <div className="text-7xl md:text-9xl text-white font-[600] leading-none">
+          <div className="text-7xl md:text-9xl  font-[600] leading-none">
             LET'S
           </div>
-          <div className="text-7xl md:text-9xl text-white font-[600] leading-none text-right">
+          <div className="text-7xl md:text-9xl  font-[600] leading-none text-right">
             CONNECT
           </div>
         </div>
