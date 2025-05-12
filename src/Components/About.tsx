@@ -1,7 +1,7 @@
 import { useState } from "react"
 import arrow from "../assets/arrow.svg"
 const About: React.FC = () => {
-    const [underline, setUnderline] = useState(null);
+    const [underline, setUnderline] = useState<string | null>(null);
     return (
         <div className='p-3 m-auto md:min-h-screen' id='about text-white'>
             <div className='text-4xl md:text-6xl mb-4'>ABOUT</div>
