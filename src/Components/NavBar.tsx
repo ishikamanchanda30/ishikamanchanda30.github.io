@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-scroll'
 import arrow from "../assets/arrow.svg"
 const NavBar: React.FC = () => {
-  const [underline, setUnderline] = useState(null);
+  const [underline, setUnderline] = useState<string | null>(null);
 
   return (
     <nav className="mx-auto navbar-light py-10 flex w-[90%] justfify-center">
