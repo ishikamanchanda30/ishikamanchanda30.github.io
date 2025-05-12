@@ -1,11 +1,6 @@
-import {useLocation } from "react-router-dom"
 import {Link} from 'react-scroll'
 
 const NavBar: React.FC = () => {
-  const location = useLocation();
-  const isActive = (path: string) => {
-    return location.pathname === path ? 'text-white font-bold' : "text-neutral-300 hover:text-white transition-colors";
-  }
   return (
 
     <nav className="mx-auto navbar-light py-10 flex w-[90%] justfify-center">
