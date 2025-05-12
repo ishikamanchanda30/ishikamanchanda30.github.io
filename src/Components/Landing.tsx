@@ -12,8 +12,8 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className='w-[90%] flex judtify-center items-center mx-auto bg-green-600 absolute bottom-0 md:gap-2 lg:gap-4 pb-4 md:pb-10 lg:pb-15 text-base'>
-                <div className='md:w-[50%] lg:w-[40%] text-[#686868] bg-yellow-600'>
+            <div className='w-[90%] flex judtify-center items-center mx-auto absolute bottom-0 md:gap-2 lg:gap-4 pb-4 md:pb-10 lg:pb-15 text-base'>
+                <div className='md:w-[50%] lg:w-[40%] text-[#686868]'>
                     Passionate about creating unforgettable and beautiful digital experiences.
                 </div>
             </div>

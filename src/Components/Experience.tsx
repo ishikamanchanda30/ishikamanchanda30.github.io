@@ -17,7 +17,7 @@ const Experience = () => {
                 <div className='text-[#686868]'>Position</div>
                 <div>{exp.position}</div>
               </div>
-              <div className='order-1 md:order-2 text-start py-10 md:py-5 lg:py-0 text-[#686868] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat facere perspiciatis in quisquam dolorum necessitatibus eveniet! Eaque, labore dignissimos?</div>
+              <div className='order-1 md:order-2 text-start py-10 md:py-5 lg:py-0 text-[#686868] '>{exp.desc}</div>
             </div>
           </div>
         ))}

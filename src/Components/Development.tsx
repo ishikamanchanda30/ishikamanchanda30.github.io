@@ -24,16 +24,17 @@ const Development = () => {
                             />
                         </div>
                         <div className="col-span-1 flex flex-col justify-end gap-3">
-                            <div className="text-md mt-5 md:mt-0 md:w-1/2">
+                            <div className="text-md mt-5 md:mt-0 md:w-2/3">
                                 {project.desc}
                             </div>
-                            <div className="flex flex-wrap gap-2 text-xs text-white items-end">
+                            <div className="flex flex-wrap gap-2 text-xs text-white items-end w-2/3">
                             {project.techStack.map((tech,index)=>(
                                 <div key={index} className="border-2 rounded-md px-3 py-1 opacity-40">{tech}</div>
                             ))}
                             </div>
                             <div className="mt-4 flex items-center ">
-                                <Link to={project.link} className=" flex justify-center items-center"><img src={github} className="mr-2 h-5 rounded-full flex justify-center items-center" alt="" />Link</Link>
+                            <Link to = {project.gitlink}><img src={github} className="mr-2 h-5 rounded-full flex justify-center items-center" alt="" /> </Link>
+                            <Link to={project.link} target='_blank' className=" flex justify-center items-center">Link</Link>
                             </div>
                         </div>
                     </div>

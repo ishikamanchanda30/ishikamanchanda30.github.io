@@ -49,9 +49,9 @@ const Contacts: React.FC = () => {
           </div>
           <div>
             <h2 className="text-2xl font-[300] ">SOCIALS</h2>
-            <a href="https://www.linkedin.com/in/ishikamanchanda0130/" className="text-[#686868] block hover:text-gray-300 transition-colors">linkedin</a>
-            <a href="https://x.com/ishi_manchanda" className="text-[#686868] block hover:text-gray-300 transition-colors">X {`(formerly twitter)`}</a>
-            <a href="https://github.com/ishikamanchanda30" className="text-[#686868] block hover:text-gray-300 transition-colors">github</a>
+            <a target='_blank' href="https://www.linkedin.com/in/ishikamanchanda0130/" className="text-[#686868] block hover:text-gray-300 transition-colors">linkedin</a>
+            <a target='_blank' href="https://x.com/ishi_manchanda" className="text-[#686868] block hover:text-gray-300 transition-colors">X {`(formerly twitter)`}</a>
+            <a target='_blank' href="https://github.com/ishikamanchanda30" className="text-[#686868] block hover:text-gray-300 transition-colors">github</a>
           </div>
         </div>
         <div className='w-1/2'>

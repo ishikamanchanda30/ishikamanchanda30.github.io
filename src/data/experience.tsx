@@ -11,21 +11,21 @@ const experience: Experiences[] = [
         society: "Digital Arts Society",
         startYear: "2023",
         endYear: "present",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, iste quisquam iusto quidem, numquam at vero    , labore deleniti incidunt doloremque vitae. Molestiae id atque recusandae, fugit sint voluptates deleniti mollitia!"
+        desc: "I have organizsed various events thorugh out the tenure, led the technical team and together we developed the DABVP website"
     },
     {
         position: "Design & Social Media Head",
         society: "BVP Optica",
         startYear: "2023",
         endYear: "present",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repudiandae, officia eligendi blanditiis, corrupti culpa eius fugit magni reprehenderit doloribus, quibusdam enim qui eaque fuga nisi sapiente aperiam neque maiores porro quod rerum! Labore soluta, vero dicta doloribus rerum rem."
+        desc: "Led a team of 30+ designers to create various promotional materials including posters and social media content across multiple events. Also as an Event Coordinator for Roboleague, I managed a team of 60+ members and ensured a smooth experience for 45+ participants."
     },
     {
-        position: "Design & Social Media Head",
+        position: "Design Member",
         society: "TEDxBVCOE",
         startYear: "2024",
         endYear: "2025",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea recusandae repudiandae fuga nam ratione commodi rerum, aspernatur, dolore accusamus, corporis vitae esse obcaecati vero magni? Eveniet adipisci odit error eius?"
+        desc: "Created several designs for TEDxBVCOE social media page, including Instagram stories and posts."
     },
 ]
 

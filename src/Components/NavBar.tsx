@@ -19,8 +19,8 @@ const NavBar: React.FC = () => {
           <div>ishikamanchanda0130@gmail.com</div>
         </div>
         <div className=''>
-          <div></div>
-          <div></div>
+          <div>Resume</div>
+          <div><a href="https://drive.google.com/file/d/164OxDbubDU09NHo2_GOGTekldFwvurfp/view?usp=sharing" target='_blank'> View Here</a></div>
         </div>
       </div>
       <div className="flex w-[30%] justify-between">
