@@ -24,7 +24,7 @@ const About: React.FC = () => {
                         I am passionate about learning new technologies and implementing them in real-world projects. I am always eager to learn and tackle new challenges.
                         <br />
                         <br />
-                        When I'm not coding I dedicate my time to jounraling, planning my week or reflecting on my day, It helps me stay focused and dedicated to my work and maintain work-life balance.
+                        When I'm not coding I dedicate my time to journaling, planning my week or reflecting on my day, It helps me stay focused and dedicated to my work and maintain work-life balance.
                     </div>
 
                 </div>

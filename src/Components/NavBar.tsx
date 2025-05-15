@@ -20,7 +20,7 @@ const NavBar: React.FC = () => {
         <div className=''>
           <div>Resume</div>
           <div className='hover:text-white transition-colors flex'>
-            <a href="https://drive.google.com/file/d/164OxDbubDU09NHo2_GOGTekldFwvurfp/view?usp=sharing" target='_blank'> View Here
+            <a href="https://drive.google.com/file/d/1KInQRCJMBEMki-VI6OjxfXNNA6AIEz1P/view?usp=sharing" target='_blank'> View Here
             </a>
             <img src={arrow} alt="" className="h-6" />
           </div>
