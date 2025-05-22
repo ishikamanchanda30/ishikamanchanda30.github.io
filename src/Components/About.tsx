@@ -9,7 +9,7 @@ const About: React.FC = () => {
             <div className='gap-12'>
                 <div className='flex flex-col md:flex-row gap-10 md:gap-20  '>
                     <div className='text-2xl md:text-4xl md:leading-13 md:w-2/3 italic'>
-                        Passionate about creating unforgettable and beutiful digital experiences, bringing your ideas to life.
+                        Passionate about creating unforgettable and beautiful digital experiences, bringing your ideas to life.
                     </div>
                     <div className='text-[#bdbdbd] font-md md:w-1/3'>
                         Hi, I'm Ishika. A front-end developer specilizing in building landing pages, multi-pages responsive websites.
