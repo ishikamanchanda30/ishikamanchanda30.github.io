@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'neue';
+    src:
+    url('./assets/fonts/PPNEUEMONTREAL-MEDIUM.OTF') format('opentype'),
+        url('./assets/fonts/PPNEUEMONTREAL-SEMIBOLDITALIC.OTF') format('opentype'),
+        url('./assets/fonts/PPNEUEMONTREAL-THIN.OTF') format('opentype'),
+        url('./assets/fonts/PPNEUEMONTREAL-BOLD.OTF') format('opentype'),
+        url('./assets/fonts/PPNEUEMONTREAL-BOOK.OTF') format('opentype'),
+        url('./assets/fonts/PPNEUEMONTREAL-ITALIC.OTF') format('opentype'),
+
+}
+
+body {
+    font-family: 'neue', sans-serif;
+    background-color: #232323;
+    color: #e8e8e8;
+    
+}
