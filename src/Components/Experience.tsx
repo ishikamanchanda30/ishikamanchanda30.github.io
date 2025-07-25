@@ -1,13 +1,12 @@
 import experience from '../data/experience'
 const Experience = () => {
   return (
-
     <>
       <div className='min-h-screen flex flex-col justify-center' id ='experience'>
         <div className='text-4xl md:text-6xl mb-4'>EXPERIENCE</div>
         <div className='border-1 border-[#686868] opacity-20 mb-10'></div>
-        {experience.map((exp) => (
-          <div className='mb-10'>
+        {experience.map((exp , id) => (
+          <div className='mb-10' key={id}>
             <div className='text-2xl md:text-4xl'>
               {exp.society}
             </div>

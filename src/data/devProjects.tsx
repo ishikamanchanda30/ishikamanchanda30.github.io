@@ -29,8 +29,8 @@ const devProject:DevProjects[] = [
         year : "2025",
         imgURL : sponsorshipBridge,
         desc : "A comprehensive website to connect Startups and College Societies featuring Smart AI society-sponsor matching with real-time chat. Streamlining the process for societies to find sponsorships for their events.", 
-        link : "https://github.com/ishikamanchanda30/Sponsorship-Bridge",
-        gitlink : "https://github.com/ishikamanchanda30/Sponsorship-Bridge",
+        link : "https://github.com/ishikamanchanda30/Sponsorship-Bridge.git",
+        gitlink : "https://github.com/ishikamanchanda30/Sponsorship-Bridge.git",
         techStack: ['React','TypeScript','TailwindCSS','NodeJS', 'ExpressJS', 'MongoDB', 'Redux', 'Socket', 'Python'],
     },
     {
