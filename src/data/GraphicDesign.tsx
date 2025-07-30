@@ -6,6 +6,9 @@ import eye from "../assets/graphicDesign/eye.png"
 import dune from "../assets/graphicDesign/dune.png"
 import kakashi from "../assets/graphicDesign/kakashi.png"
 import kurt from "../assets/graphicDesign/kurt.png"
+import green from "../assets/graphicDesign/green day.png"
+import joji2 from "../assets/graphicDesign/joju.png"
+import zion from "../assets/graphicDesign/pickle ball.png"
 interface Design{
     name: string;
     img: string;
@@ -49,8 +52,23 @@ const design:Design[] = [
     },
     {
         name: 'Design 1',
+        img: green,
+        type:'a4'
+    },
+    {
+        name: 'Design 1',
+        img: zion,
+        type:'square'
+    },
+    {
+        name: 'Design 1',
         img: dune,
         type:'square'
+    },
+    {
+        name: 'Design 1',
+        img: joji2,
+        type:'a4'
     },
 ]
 
