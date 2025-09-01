@@ -8,6 +8,7 @@ import kakashi from "../assets/graphicDesign/kakashi.png"
 import kurt from "../assets/graphicDesign/kurt.png"
 import stay from "../assets/graphicDesign/stay perfunmes.png"
 import pickleball from "../assets/graphicDesign/pickelball.png"
+import joju from "../assets/graphicDesign/joji again.png"
 interface Design{
     name: string;
     img: string;
@@ -62,6 +63,11 @@ const design:Design[] = [
     {
         name: 'Design 1',
         img: stay ,
+        type: 'a4',
+    },
+    {
+        name: 'Joji Again',
+        img: joju ,
         type: 'a4',
     },
 ]
