@@ -1,10 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom'
-
 import NavBar from "./Components/NavBar"
 import NavMobile from "./Components/NavMobile"
 import Home from './Pages/Home'
 import { useState, useEffect } from 'react'
-
 
 const MainLayout: React.FC = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 720);

@@ -13,7 +13,17 @@ const NavbarMobile: React.FC = () => {
                     Based In <br></br>
                     New Delhi, India
                 </Link>
+                <div className='flex-shrink-0'>
+                    <div>Say Hello</div>
+                    <Link to='mailto:ishikamanchanda0130@gmail.com'>ishikamanchanda0130@gmail.com</Link>
+                </div>
+                <div className='flex-shrink-0'>
+                    <div>Resume</div>
+                    <Link to='https://drive.google.com/file/d/1KInQRCJMBEMki-VI6OjxfXNNA6AIEz1P/view?usp=sharing'>View Here</Link>
+                </div>
+
             </div>
+
 
             <div className='flex-shrink-0'>
                 <img

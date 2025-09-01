@@ -1,4 +1,5 @@
 import { useState } from "react"
+
 import arrow from "../assets/arrow.svg"
 const About: React.FC = () => {
     const [underline, setUnderline] = useState<string | null>(null);
@@ -9,7 +10,7 @@ const About: React.FC = () => {
             <div className='gap-12'>
                 <div className='flex flex-col md:flex-row gap-10 md:gap-20  '>
                     <div className='text-2xl md:text-4xl md:leading-13 md:w-2/3 italic'>
-                        Passionate about creating unforgettable and beautiful digital experiences, bringing your ideas to life.
+                        Creating unforgettable and beautiful digital experiences, bringing your ideas to life.
                     </div>
                     <div className='text-[#bdbdbd] font-md md:w-1/3'>
                         Hi, I'm Ishika. A front-end developer specilizing in building landing pages, multi-pages responsive websites.
@@ -17,14 +18,11 @@ const About: React.FC = () => {
                         <br />
                         I am currently pursuing Bachelor of Technology in Computer Science from GGSIPU.
                         <br />
-
                         During my two years of college, I have organized a number of events and taken part in hackathons, and this experience has equipped me with problem-solving skills and teamwork abilities.
                         <br />
                         <br />
                         I am passionate about learning new technologies and implementing them in real-world projects. I am always eager to learn and tackle new challenges.
-                        <br />
-                        <br />
-                        When I'm not coding I dedicate my time to journaling, planning my week or reflecting on my day, It helps me stay focused and dedicated to my work and maintain work-life balance.
+
                     </div>
 
                 </div>
@@ -40,7 +38,7 @@ const About: React.FC = () => {
                     <div className='flex flex-col'>
                         <div>Say Hello</div>
                         <div className='flex flex-col'>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ishikamanchanda0130@gmail.com" target="_blank" onMouseEnter={() => setUnderline('email')} onMouseLeave={() => setUnderline(null)}>ishikamanchanda0130@gmail.com</a>
+                            <a href="mailto:ishikamanchanda0130@gmail.com" target="_blank" onMouseEnter={() => setUnderline('email')} onMouseLeave={() => setUnderline(null)}>ishikamanchanda0130@gmail.com</a>
                             <span
                                 className="h-[1px] rounded-full transition-all duration-300 bg-white   ease-in-out"
                                 style={{ width: underline == 'email' ? '100%' : '0%' }}
@@ -62,6 +60,7 @@ const About: React.FC = () => {
                 </div>
 
             </div>
+             
         </div>
 
     )

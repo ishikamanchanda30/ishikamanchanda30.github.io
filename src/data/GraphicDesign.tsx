@@ -9,6 +9,8 @@ import kurt from "../assets/graphicDesign/kurt.png"
 import stay from "../assets/graphicDesign/stay perfunmes.png"
 import pickleball from "../assets/graphicDesign/pickelball.png"
 import joju from "../assets/graphicDesign/joji again.png"
+import green from "../assets/graphicDesign/green day.png"
+import joji2 from "../assets/graphicDesign/joju.png"
 interface Design{
     name: string;
     img: string;
@@ -52,23 +54,28 @@ const design:Design[] = [
     },
     {
         name: 'Design 1',
+        img: green,
+        type:'a4'
+    },
+    {
+        name: 'Design 1',
+        img: pickleball,
+        type:'square'
+    },
+    {
+        name: 'Design 1',
         img: dune,
         type:'square'
     },
     {
         name: 'Design 1',
-        img: pickleball ,
-        type: 'a4',
+        img: joji2,
+        type:'a4'
     },
     {
         name: 'Design 1',
-        img: stay ,
-        type: 'a4',
-    },
-    {
-        name: 'Joji Again',
-        img: joju ,
-        type: 'a4',
+        img: joju,
+        type:'a4'
     },
 ]
 
