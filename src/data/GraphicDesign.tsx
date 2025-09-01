@@ -77,6 +77,11 @@ const design:Design[] = [
         img: joju,
         type:'a4'
     },
+    {
+        name: 'Design 1',
+        img: stay,
+        type:'a4'
+    },
 ]
 
 export default design;
